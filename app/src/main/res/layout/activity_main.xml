@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/open_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Камера"
+        android:onClick="openCamera"/>
+
+    <Button
+        android:id="@+id/open_remote_access"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалённый доступ"
+        android:onClick="openRemoteAccess"/>
+
+    <Button
+        android:id="@+id/open_multi_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Несколько камер"
+        android:onClick="openMultiCamera"/>
+
+    <Button
+        android:id="@+id/voice_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Аудиочат"
+        android:onClick="openVoiceChat"/>
+</LinearLayout>
